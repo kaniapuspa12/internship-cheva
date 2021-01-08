@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontak Internship Chevalier</title>
+    <link rel="stylesheet" href="../asset/style.css">
 </head>
 <body>
     <!--Menu Website-->
-    <div>
-        <a href="../main.html">Home</a>
-        <a href="kontak.html">Kontak</a>
+    <div class="menu_web">
+        <a href="../main.html" class="menu_k">Home</a>
+        <a href="kontak.html" class="menu_k">Kontak</a>
     </div>
     <!--Bagian header-->
     <div>
-        <h1>Kontak Internship Chevalier</h1>
-        <h2>Tutorial online untuk belajar membuat website</h2>
+        <h1 class="h1_member">Kontak Internship Chevalier</h1>
+        <h2 class="h2_member">Daftar Member Internship Chevalier Lab</h2>
 
     </div>
     <!--membuat form-->
-    <form >
+    <form id="form">
         <fieldset>
             <legend>Nama dan Pesan</legend>
             <label for="nama_user">Nama</label>
@@ -56,45 +57,50 @@
             </select>
             </fieldset>
             <br>
-            <input type="submit" value="Kirim">
+            <input type="submit" value="Kirim" id="submit">
     </form>
      <br><br>
-     <table border="1">
-        <caption>Daftar anggota Internship Chevalier: Web Developer</caption>
-        <tr>
-            <th>Nama Anggota</th>
-            <th>Kota Asal</th>
-        </tr>
-        <tr>
-            <td>Kania</td>
-            <td>Jakarta</td>
-        </tr>
-        <tr>
-            <td>Puspa</td>
-            <td>Tangerang</td>
-        </tr>
-    </table>
-    <!--list tabel-->
-
-    <ul>
-        <li>Kania</li>
-        <li>Puspa</li>
-    </ul>
-
-    <ol>
-        <li>Kania</li>
-        <li>Puspa</li>
-    </ol>
-
-    <dl>
-        <dt>Kania</dt>
-        <dd>Person 1</dd>
-
-        <dt>Puspa</dt>
-        <dd>Person 2</dd>
-    </dl>
-
-
-    <p> &copy; Kania Puspa H.</p>
+     <div  id="tabel_member">
+        <table border="2">
+            <p id="caption">Daftar Anggota Web Developer</p>
+            <tr>
+                <th>Nama Anggota</th>
+                <th>Kota Asal</th>
+            </tr>
+            <tr>
+                <td>Kania</td>
+                <td>Jakarta</td>
+            </tr>
+            <tr>
+                <td>Puspa</td>
+                <td>Tangerang</td>
+            </tr>
+        </table>
+        <!--list tabel-->
+  
+        <ul id="ul">
+            <li>Kania</li>
+            <li>Puspa</li>
+        </ul>
+    
+        <ol id="ol">
+            <li>Kania</li>
+            <li>Puspa</li>
+        </ol>
+    
+        <dl id="dl">
+            <dt>Kania</dt>
+            <dd class="person">Person 1</dd>
+    
+            <dt>Puspa</dt>
+            <dd class="person">Person 2</dd>
+        </dl>
+    
+    
+        <p id="copyright"> &copy; KaniaPuspa02</p>
+        
+     
+     </div>
+     
 </body>
 </html>

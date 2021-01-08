@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+}
+
+
+#text_panjang{
+    text-align: justify;
+    text-indent: 30px;
+   word-spacing: 5px;
+   line-height: 20px;
+   position: relative;
+   top: 100px;
+   padding-left: 20px;
+   padding-right: 20px;
+color: purple;
+}
+
+
+h2{
+    color: #332255;
+    font-size : 20px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline;
+}
+h1{
+    color:#8a3a4f;
+    text-align: center;
+    text-decoration: underline;
+    display: inline;
+}
+body{
+    background-color: #ffc3a0;
+    background-image: url("../images/pastel3.png");
+  
+    font-family: sans-serif;
+}
+.menu_web{
+    background: firebrick;
+    position: fixed;
+    z-index: 2;
+    display:inline-block;
+    width: 100%;
+    height: 25px;
+  
+
+   
+
+}
+.menu_k{
+
+padding-top: 20px;
+ padding-left: 10px;
+ text-decoration: none;
+ color: white;
+ font-size: 15px;
+ font-weight: bold;
+}
+
+.menu_k:link{
+    color: white;
+}
+
+.menu_k:visited{
+    color:  #fde7d6;
+}
+.menu_k:hover{
+    color: yellow;
+}
+.menu_k:active{
+    color: #c6eff5;
+}
+
+.h1_member{
+ 
+   position: relative;
+    top: 50px; 
+    right: 40px;
+    text-align: center;
+    
+}
+.h2_member{
+    position: relative;
+    top:100px;
+    right: 30%;
+    left: 5px;
+    float: left;
+ 
+}
+#form{
+    position: relative;
+    top: 100px;
+}
+#tabel_member{
+    position: relative;
+    top: 80px;
+}
+.person{
+    float:right;
+    margin-right: 90%;
+ 
+}
+#copyright{
+    clear:both;
+    padding-top: 20px;
+    border-top: 2px solid firebrick;
+    border-width: 100%;
+    padding-left: 45%;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+   
+}
+input:focus, textarea:focus{
+    background: #fde7d6;
+}
+#caption{
+    font-weight: bold;
+    font-size: 20px;
+    color: #332255;
+    padding-bottom: 20px;
+}
+#ul{
+    padding-top :20px;
+}
+#ol{
+    padding-top:10px;
+}
+#dl{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#submit{
+   margin-left: 20px;
+}
+.sosmed{
+    position: relative;
+    top: 100px;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+#iframe{
+    margin-top: 100px;
+    margin-left: 6px;
+}
+#teks{
+    padding-top: 20px;
+    font-size: 20px;
+    color: purple;
+}
